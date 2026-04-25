@@ -41,7 +41,6 @@ e-commerce-website/
 │── package.json # Dependencies
 │── README.md # Documentation
 
-
 ---
 
 ## ⚙️ Installation & Setup
