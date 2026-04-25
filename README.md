@@ -1,16 +1,53 @@
 # React + Vite
+# 🛒 E-Commerce Website (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+This project is a modern **E-commerce web application built using React.js**.  
+It provides a seamless shopping experience where users can browse products, view details, and manage their cart.
 
-Currently, two official plugins are available:
+The application focuses on **responsive design, dynamic UI, and smooth user interaction**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
+- 🛍️ Product listing and categories
+- 🔍 Search and filter functionality
+- 📄 Product details page
+- 🛒 Add to cart / Remove from cart
+- 🔢 Cart quantity management
+- 💰 Price calculation
+- 📱 Fully responsive UI
+- ⚡ Fast rendering using React components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🏗️ Tech Stack
+- **Frontend:** React.js  
+- **Styling:** CSS / Bootstrap / Tailwind (based on your project)  
+- **State Management:** React Hooks (useState, useEffect)  
+- **Routing:** React Router  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+e-commerce-website/
+│── public/ # Static files
+│── src/
+│ ├── components/ # Reusable components
+│ ├── pages/ # Page components
+│ ├── assets/ # Images & styles
+│ ├── App.js # Main component
+│ ├── index.js # Entry point
+│── package.json # Dependencies
+│── README.md # Documentation
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/anushanunna0509-max/E-commerce-website.git
+cd my_project
+npm run dev
